@@ -9,6 +9,9 @@ import AulasAlunos from './pages/PagesAluno/AulasAluno/AulasAluno';
 import PerfilAluno from './pages/PagesAluno/PerfilAluno/PerfilAluno';
 import TreinoAluno from './pages/PagesAluno/TreinoAluno/TreinoAluno';
 import DietaAluno from './pages/PagesAluno/DietaAluno/DietaAluno';
+import HomePersonal from './pages/PagesPersonal/HomePersonal/HomePersonal';
+import HomeAcademia from './pages/PagesAcademia/HomeAcademia/HomeAcademia';
+
 
 
 
@@ -25,7 +28,10 @@ function App() {
         <Route path='/aulasAluno' element={<AulasAlunos/>} />
         <Route path='/perfilAluno' element={<PerfilAluno/>} />
         <Route path='/treinoAluno' element={<TreinoAluno/>} />
-        <Route path='/dietaAluno' element={<DietaAluno/>} />
+        <Route path='/dietaAluno' element={<DietaAluno/>} />  
+        <Route path='/homePersonal' element={<HomePersonal/>} />
+        <Route path='/homeAcademia' element={<HomeAcademia/>} />
+
         
       </Routes>
     </Router>

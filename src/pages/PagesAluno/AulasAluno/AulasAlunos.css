@@ -47,17 +47,16 @@
     font-size: 15px;
   }
 
-/* Estilo geral para a lista */
 .detalhe-aula {
-    background-color: #5BBA89; /* Cor de fundo para a área */
+    background-color: rgba(0, 0, 0, 0.1); 
     padding: 30px;
     border-radius: 20px;
     margin-left: 400px;
-    margin-right: 500px;
+    margin-right: 400px;
   }
   
   .detalhe-aula-list {
-    list-style-type: none; /* Remove a bolinha padrão */
+    list-style-type: none; 
     padding: 0;
   }
   

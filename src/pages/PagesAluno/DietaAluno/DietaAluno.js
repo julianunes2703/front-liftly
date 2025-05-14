@@ -12,6 +12,7 @@ const dieta = [
       { alimento: "2 pães integrais" },
       { alimento: "100g de ovo" },
       { alimento: "100g de mamão/melancia/morango/melão" }
+
     ]
   },
   {
